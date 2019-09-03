@@ -1,0 +1,21 @@
+body{margin:0;padding:0; background-color:#B5B5B5;}
+.solver_conatiner{position: relative; display: block; margin: 10px auto; max-width: 600px; border-radius: 10px; border:1px solid #333; background-color: #fff; padding: 10px; overflow: hidden; }
+.solver_conatiner>h1{margin:0;padding:0;}
+
+#quadeq_example{ letter-spacing: 2px; font-size: 12px; color:#555;  }
+
+#qesolver_form>div{margin: 10px 0px;}
+#qesolver_form>#button_div{position: relative; overflow: hidden;}
+
+#qesolver_response{display: none; border:1px dashed #389CFC; background-color: #D4EAFF; padding: 10px;}
+
+.answer_recurring{font-size: 11px; font-style: italic; color:#043A6F;}
+
+.button{float:right; border: 1px solid #333; background-color: #4BFC38; font-weight: bold; padding: 8px 12px; transition: 1s; cursor: pointer; margin: 0 0 1px 10px; }
+.button:hover{transition: 1s; background-color: #FCF338;}
+.button:active{position: relative; top: 1px;}
+
+.fine{font-size:11px; font-style: italic; margin-bottom: 10px;}
+.noselect{-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+#note{ display: none; position: absolute; top: 0px; left: 0px; width: 100%; padding: 10px; background-color: #84F87A; border-bottom: 1px solid #17840D; }
+.error_field{ background-color:#FFDBDB;  }
